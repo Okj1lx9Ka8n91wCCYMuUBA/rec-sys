@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8809:8809" # REST
+      - "8809:5000" # REST
     volumes:
       - .:/app
 

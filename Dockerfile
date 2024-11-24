@@ -47,5 +47,5 @@ RUN sudo apt update && sudo apt install -y git
 
 RUN bash -c "source venv/bin/activate && pip install -r requirements.txt"
 
-EXPOSE 8809
+EXPOSE 5000
 RUN bash -c "source venv/bin/activate && python app.py"
