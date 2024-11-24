@@ -1,0 +1,7 @@
+requests
+flask
+pandas
+transformers
+sentence-transformers
+hnswlib
+scikit-learn
